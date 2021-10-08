@@ -55,7 +55,7 @@ void put0(int position){
         if(v[0][position-1]>0){
             cout<<"This position is already occupied. Please re-entered a new position\n.";
             cin>>position;
-            putX(position);
+            put0(position);
         }
         else
             v[0][position-1]=0;
