@@ -66,7 +66,6 @@ void putX(int position){
 
 
 void put0(int position){
-    cout<<position<<'\n';
     if(position <= 3){
         if(v[0][position-1]>=0){
             position=(rand()%9)+1;
