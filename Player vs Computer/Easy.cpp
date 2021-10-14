@@ -115,9 +115,9 @@ int VerifyIfOnePlayerWon(){
 
         else{
             if(start==1)
-                cout<<"Computer wins.\n";
+                cout<<"Player wins.\n";
             else
-                cout<<"Player wins\n";
+                cout<<"Computer wins\n";
             return 1;
         }
 
@@ -133,9 +133,9 @@ int VerifyIfOnePlayerWon(){
 
         else{
             if(start==1)
-                cout<<"Computer wins.\n";
-            else
                 cout<<"Player wins.\n";
+            else
+                cout<<"Computer wins.\n";
             return 1;
         }
 
@@ -156,9 +156,9 @@ int VerifyIfOnePlayerWon(){
 
                 else{
                     if(start==1)
-                        cout<<"Computer wins.\n";
-                    else
                         cout<<"Player wins.\n";
+                    else
+                        cout<<"Computer wins.\n";
                     return 1;
                 }
 
@@ -174,9 +174,9 @@ int VerifyIfOnePlayerWon(){
 
                 else{
                     if(start==1)
-                        cout<<"Computer wins.\n";
+                        cout<<"Player wins.\n";
                     else
-                        cout<<"Player 2 wins.\n";
+                        cout<<"Computer wins.\n";
                     return 1;
                 }
 
